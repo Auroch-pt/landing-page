@@ -6,6 +6,7 @@ import { useErrorHandler } from "react-error-boundary";
 import { I18nextProvider, useTranslation } from "react-i18next";
 import { t } from "i18next";
 import LANGUAGES from "./components/Translator/languages";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const [isAppLoading, setIsLoading] = useState(false);
@@ -46,6 +47,7 @@ export default function App() {
               ))}
             </div>
             <p>{t("welcome.description")}</p>
+            <Footer />
             <ErrorThrower />
           </div>
         )}
