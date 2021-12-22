@@ -23,6 +23,9 @@ i18n
             title: "Welcome to FREEDEV",
             description: "Freedev is the future of freelancing",
           },
+          header: {
+            enroll: "Get started",
+          },
           error: {
             message: "Default Error",
           },
@@ -33,6 +36,9 @@ i18n
           welcome: {
             title: "Bem-vindo ao FREEDEV",
             description: "Freedev é o futuro do freelancing",
+          },
+          header: {
+            enroll: "Começar Agora",
           },
           error: {
             message: "Erro teste",
