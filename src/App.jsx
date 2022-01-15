@@ -1,3 +1,4 @@
+import "./app.scss";
 import { Fragment, useEffect, useState } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { ErrorFallback } from "./components/ErrorBoundary/FallBackErrorBoundary";
@@ -7,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Explanation from "./views/Explanation/Explanation";
 import Home from "./views/Home/Home";
+import Banner from "./components/Banner/Banner";
 
 export default function App() {
   const [isAppLoading, setIsLoading] = useState(false);
@@ -20,7 +22,7 @@ export default function App() {
     setIsLoading(true);
     window.setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 0);
   }, []);
 
   return (
@@ -31,6 +33,7 @@ export default function App() {
         ) : (
           <Fragment>
             <Header />
+            <Banner />
             <Home />
             <Explanation />
             <Footer />
