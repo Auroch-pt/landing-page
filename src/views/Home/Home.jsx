@@ -1,13 +1,15 @@
 import { useErrorHandler } from "react-error-boundary";
 import { t } from "i18next";
 import { Fragment } from "react";
+import Banner from "../../views/Banner/Banner.jsx";
+import CTABanner from "../CTABanner/CTABanner.jsx";
 
 function Home() {
   return (
     <div className="Home">
-      <h1>{t("welcome.title")}</h1>
-      <p>{t("welcome.description")}</p>
-      <ErrorThrower />
+      <Banner />
+      <CTABanner />
+      {/* <ErrorThrower /> */}
     </div>
   );
 }
@@ -25,6 +27,7 @@ const ErrorThrower = () => {
 
   return (
     <Fragment>
+      {" "}
       <button onClick={setError}>{t("error.message")}</button>
     </Fragment>
   );
