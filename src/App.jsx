@@ -1,19 +1,12 @@
-import "./app.scss";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { ErrorFallback } from "./components/ErrorBoundary/FallBackErrorBoundary";
 import LoadingDisplayer from "./components/LoadingDisplayer/LoadingDisplayer";
 import { I18nextProvider, useTranslation } from "react-i18next";
-
-//Components
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-
-//views
-import Home from "./views/Home/Home";
 import Explanation from "./views/Explanation/Explanation";
-import Faqs from "./views/Faqs/Faqs";
+import Home from "./views/Home/Home";
 
 export default function App() {
   const [isAppLoading, setIsLoading] = useState(false);
@@ -27,7 +20,7 @@ export default function App() {
     setIsLoading(true);
     window.setTimeout(() => {
       setIsLoading(false);
-    }, 0);
+    }, 2000);
   }, []);
 
   return (
@@ -36,15 +29,12 @@ export default function App() {
         {isAppLoading ? (
           <LoadingDisplayer />
         ) : (
-          <BrowserRouter>
+          <Fragment>
             <Header />
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route exact path="/faqs" element={<Faqs />} />
-              <Route exact path="/aboutUs" element={<Explanation />} />
-            </Routes>
-            {/* <Footer /> */}
-          </BrowserRouter>
+            <Home />
+            <Explanation />
+            <Footer />
+          </Fragment>
         )}
       </ErrorBoundary>
     </I18nextProvider>
