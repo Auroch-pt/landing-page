@@ -47,7 +47,7 @@ i18n
             nav_option1: "Home",
             nav_option2: "FAQ's",
             nav_option3: "Sobre Nós",
-            enroll: "Começar Agora",
+            enroll: "Começar",
           },
           footer: {
             info: "© 2022 Freedev. Todos os direitos reservados.",
