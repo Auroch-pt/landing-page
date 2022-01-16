@@ -43,7 +43,7 @@ export default function App() {
               <Route exact path="/faqs" element={<Faqs />} />
               <Route exact path="/aboutUs" element={<Explanation />} />
             </Routes>
-            <Footer />
+            {/* <Footer /> */}
           </BrowserRouter>
         )}
       </ErrorBoundary>
