@@ -40,6 +40,10 @@ i18n
             card3:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
           },
+          CTABanner: {
+            title: "Let's start building now",
+            subtitle: "Connect with your wallet and start solving issues",
+          },
           faqs: {
             question1: "Lorem ipsum dolor asset?",
             answer1:
@@ -84,6 +88,10 @@ i18n
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
             card3:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          },
+          CTABanner: {
+            title: "Vamos começar agora a construir projectos",
+            subtitle: "Conecta-te com a tua wallet e começa a resolver tarefas.",
           },
           faqs: {
             question1: "Lorem ipsum dolor asset?",
