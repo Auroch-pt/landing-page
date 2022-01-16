@@ -1,13 +1,13 @@
 import { useErrorHandler } from "react-error-boundary";
 import { t } from "i18next";
 import { Fragment } from "react";
+import Banner from "../../components/Banner/Banner.jsx";
 
 function Home() {
   return (
     <div className="Home">
-      <h1>{t("welcome.title")}</h1>
-      <p>{t("welcome.description")}</p>
-      <ErrorThrower />
+      <Banner />
+      {/* <ErrorThrower /> */}
     </div>
   );
 }
