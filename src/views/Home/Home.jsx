@@ -25,6 +25,7 @@ const ErrorThrower = () => {
 
   return (
     <Fragment>
+      {" "}
       <button onClick={setError}>{t("error.message")}</button>
     </Fragment>
   );
