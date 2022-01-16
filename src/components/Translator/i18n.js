@@ -24,7 +24,13 @@ i18n
             description: "Freedev is the future of freelancing",
           },
           header: {
+            nav_option1: "Home",
+            nav_option2: "FAQ's",
+            nav_option3: "About Us",
             enroll: "Get started",
+          },
+          footer: {
+            info: "© 2022 Freedev. All rights reserved.",
           },
           error: {
             message: "Default Error",
@@ -38,7 +44,13 @@ i18n
             description: "Freedev é o futuro do freelancing",
           },
           header: {
+            nav_option1: "Home",
+            nav_option2: "FAQ's",
+            nav_option3: "Sobre Nós",
             enroll: "Começar Agora",
+          },
+          footer: {
+            info: "© 2022 Freedev. Todos os direitos reservados.",
           },
           error: {
             message: "Erro teste",

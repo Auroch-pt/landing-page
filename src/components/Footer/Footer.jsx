@@ -3,25 +3,30 @@ import LANGUAGES from "../Translator/languages";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  return <div className="footer">Footer</div>;
-};
+  const { t, i18n } = useTranslation();
 
-export default Footer;
-
-/*const { t, i18n } = useTranslation();*/
-/* <h3>{t("header.enroll")}</h3> */
-
-/* <div>
+  return (
+    <div className="footer">
+      <div className="footer__company-details">
+        <h6>freedev@auroch.pt</h6>
+        <h6>{t("footer.info")}</h6>
+      </div>
+      <div className="footer__idioms">
         {Object.keys(LANGUAGES).map((lng) => (
-          <button
+          <h6
             key={lng}
-            style={{
-              fontWeight: i18n.resolvedLanguage === lng ? "bold" : "normal",
-            }}
+            className={
+              i18n.resolvedLanguage === lng ? "footer__idioms--selected" : "footer__idioms--default"
+            }
             type="submit"
             onClick={() => i18n.changeLanguage(lng)}
           >
             {LANGUAGES[lng].nativeName}
-          </button>
+          </h6>
         ))}
-      </div> */
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

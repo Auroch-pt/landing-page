@@ -2,6 +2,7 @@ import "./Header.styles.scss";
 import { useState, useEffect } from "react";
 import { Fade as Hamburger } from "hamburger-react";
 import { NavLink } from "react-router-dom";
+import { t } from "i18next";
 
 const Header = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -29,7 +30,7 @@ const TabletHeader = () => {
       <div className="header__tablet">
         <Hamburger toggled={isOpen} toggle={setOpen} size={24} />
         <h1>FREEDEV</h1>
-        <button>Enter app</button>
+        <button>{t("header.enroll")}</button>
       </div>
 
       <div className={isOpen ? "header__side-nav" : "header__side-nav--hidden"}>
@@ -47,7 +48,7 @@ const DesktopHeader = () => {
         <h1>FREEDEV</h1>
         <Menu />
       </div>
-      <button>Enter app</button>
+      <button> {t("header.enroll")}</button>
     </div>
   );
 };
@@ -57,17 +58,17 @@ const Menu = (onClick) => {
     <ul>
       <li>
         <NavLink exact activeClassName="active" to="/" onClick={onClick}>
-          Home
+          {t("header.nav_option1")}
         </NavLink>
       </li>
       <li>
         <NavLink exact activeClassName="active" to="/faqs" onClick={onClick}>
-          FAQ's
+          {t("header.nav_option2")}
         </NavLink>
       </li>
       <li>
         <NavLink exact activeClassName="active" to="/aboutUs" onClick={onClick}>
-          About us
+          {t("header.nav_option3")}
         </NavLink>
       </li>
     </ul>

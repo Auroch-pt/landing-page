@@ -1,11 +1,43 @@
-$footer_background: #1c262b;
-$footer_color: #ffffff;
+$footer_background: #ffffff;
+$footer_color: #333333;
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 80px;
-  background-color: $footer_background;
-  color: $footer_color;
+  padding: 0 2rem;
+  box-shadow: 5px 0px 5px 2px #c7c7c733;
+
+  h6 {
+    font-weight: 400;
+    margin: 0.2rem 0;
+  }
+
+  .footer__company-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__idioms {
+    display: flex;
+
+    .footer__idioms--default {
+      cursor: pointer;
+    }
+
+    .footer__idioms--selected {
+      cursor: pointer;
+      font-weight: 600;
+      border-bottom: 2px solid black;
+    }
+
+    h6 {
+      margin: 0 0.5rem;
+    }
+  }
 }
