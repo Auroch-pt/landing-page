@@ -40,6 +40,10 @@ i18n
             card3:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
           },
+          CTABanner: {
+            title: "Let's start building now",
+            subtitle: "Connect with your wallet and start solving issues.",
+          },
           footer: {
             info: "© 2022 Freedev. All rights reserved.",
           },
@@ -70,6 +74,10 @@ i18n
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
             card3:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          },
+          CTABanner: {
+            title: "Vamos começar a desenvolver projectos",
+            subtitle: "Conecta-te com a tua wallet e começa agora a desenvolver projetos.",
           },
           footer: {
             info: "© 2022 Freedev. Todos os direitos reservados.",
