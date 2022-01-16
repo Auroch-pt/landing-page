@@ -2,8 +2,10 @@ $footer_background: #1c262b;
 $footer_color: #ffffff;
 
 .footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  height: 88px;
+  height: 80px;
   background-color: $footer_background;
   color: $footer_color;
 }

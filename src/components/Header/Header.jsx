@@ -1,7 +1,7 @@
 import "./Header.styles.scss";
 import { useState, useEffect } from "react";
-
 import { Fade as Hamburger } from "hamburger-react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -31,12 +31,9 @@ const TabletHeader = () => {
         <h1>FREEDEV</h1>
         <button>Enter app</button>
       </div>
+
       <div className={isOpen ? "header__side-nav" : "header__side-nav--hidden"}>
-        <ul>
-          <li>Homepage</li>
-          <li>FAQ's</li>
-          <li>About us</li>
-        </ul>
+        <Menu onClick={() => setOpen(false)} />
         <div className="header__background" onClick={() => setOpen(false)}></div>
       </div>
     </>
@@ -48,14 +45,32 @@ const DesktopHeader = () => {
     <div className="header__desktop">
       <div>
         <h1>FREEDEV</h1>
-        <ul>
-          <li>Homepage</li>
-          <li>FAQ's</li>
-          <li>About us</li>
-        </ul>
+        <Menu />
       </div>
       <button>Enter app</button>
     </div>
+  );
+};
+
+const Menu = (onClick) => {
+  return (
+    <ul>
+      <li>
+        <NavLink exact activeClassName="active" to="/" onClick={onClick}>
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink exact activeClassName="active" to="/faqs" onClick={onClick}>
+          FAQ's
+        </NavLink>
+      </li>
+      <li>
+        <NavLink exact activeClassName="active" to="/aboutUs" onClick={onClick}>
+          About us
+        </NavLink>
+      </li>
+    </ul>
   );
 };
 
