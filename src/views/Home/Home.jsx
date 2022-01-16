@@ -1,7 +1,7 @@
 import { useErrorHandler } from "react-error-boundary";
 import { t } from "i18next";
 import { Fragment } from "react";
-import Banner from "../../components/Banner/Banner.jsx";
+import Banner from "../../views/Banner/Banner.jsx";
 
 function Home() {
   return (
