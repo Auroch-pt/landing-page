@@ -29,6 +29,17 @@ i18n
             nav_option3: "About Us",
             enroll: "Get started",
           },
+          banner: {
+            title: "You decide when and where to work",
+            description:
+              "Freedev is a platform where you can build projects, either by solving tasks or by creating them.",
+            card1:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            card2:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            card3:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          },
           footer: {
             info: "© 2022 Freedev. All rights reserved.",
           },
@@ -47,7 +58,18 @@ i18n
             nav_option1: "Home",
             nav_option2: "FAQ's",
             nav_option3: "Sobre Nós",
-            enroll: "Começar Agora",
+            enroll: "Começar",
+          },
+          banner: {
+            title: "Tu decides quando e onde trabalhar",
+            description:
+              "Freedev é uma plataforma onde podes construir projetos, a resolver tarefas ou a criá-las",
+            card1:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            card2:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            card3:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
           },
           footer: {
             info: "© 2022 Freedev. Todos os direitos reservados.",
