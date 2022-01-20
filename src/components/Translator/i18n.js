@@ -45,7 +45,7 @@ i18n
             subtitle: "Connect with your wallet and start solving issues.",
           },
           footer: {
-            info: "© 2022 Freedev. All rights reserved.",
+            info: "All rights reserved.",
           },
           error: {
             message: "Default Error",
@@ -77,10 +77,11 @@ i18n
           },
           CTABanner: {
             title: "Vamos começar a desenvolver projectos",
-            subtitle: "Conecta-te com a tua wallet e começa agora a desenvolver projetos.",
+            subtitle:
+              "Conecta-te com a tua wallet e começa agora a desenvolver projetos.",
           },
           footer: {
-            info: "© 2022 Freedev. Todos os direitos reservados.",
+            info: "Todos os direitos reservados.",
           },
           error: {
             message: "Erro teste",

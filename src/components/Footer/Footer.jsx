@@ -9,14 +9,18 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__company-details">
         <h6>freedev@auroch.pt</h6>
-        <h6>{t("footer.info")}</h6>
+        <h6>
+          © {new Date().getFullYear()} Freedev. {t("footer.info")}
+        </h6>
       </div>
       <div className="footer__idioms">
         {Object.keys(LANGUAGES).map((lng) => (
           <h6
             key={lng}
             className={
-              i18n.resolvedLanguage === lng ? "footer__idioms--selected" : "footer__idioms--default"
+              i18n.resolvedLanguage === lng
+                ? "footer__idioms--selected"
+                : "footer__idioms--default"
             }
             type="submit"
             onClick={() => i18n.changeLanguage(lng)}
