@@ -12,7 +12,7 @@ import Header from "./components/Header/Header";
 
 //views
 import Home from "./views/Home/Home";
-import Explanation from "./views/Explanation/Explanation";
+import About from "./views/About/About";
 import Faqs from "./views/Faqs/Faqs";
 
 export default function App() {
@@ -41,7 +41,7 @@ export default function App() {
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/faqs" element={<Faqs />} />
-              <Route exact path="/aboutUs" element={<Explanation />} />
+              <Route exact path="/aboutUs" element={<About />} />
             </Routes>
             <Footer />
           </BrowserRouter>

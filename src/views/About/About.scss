@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 192, 74);
+
+  .about__text {
+    width: 40%;
+  }
+
+  img {
+    width: 60%;
+  }
+}
