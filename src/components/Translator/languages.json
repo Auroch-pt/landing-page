@@ -1,5 +1,0 @@
-
-export default const LANGUAGES = {
-  en: { nativeName: "English" },
-  pt: { nativeName: "Portugues" },
-};

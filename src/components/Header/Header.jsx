@@ -35,7 +35,10 @@ const TabletHeader = () => {
 
       <div className={isOpen ? "header__side-nav" : "header__side-nav--hidden"}>
         <Menu onClick={() => setOpen(false)} />
-        <div className="header__background" onClick={() => setOpen(false)}></div>
+        <div
+          className="header__background"
+          onClick={() => setOpen(false)}
+        ></div>
       </div>
     </>
   );
@@ -62,12 +65,12 @@ const Menu = (onClick) => {
         </NavLink>
       </li>
       <li>
-        <NavLink exact activeClassName="active" to="/faqs" onClick={onClick}>
+        <NavLink activeClassName="active" to="/faqs" onClick={onClick}>
           {t("header.nav_option2")}
         </NavLink>
       </li>
       <li>
-        <NavLink exact activeClassName="active" to="/aboutUs" onClick={onClick}>
+        <NavLink activeClassName="active" to="/aboutUs" onClick={onClick}>
           {t("header.nav_option3")}
         </NavLink>
       </li>

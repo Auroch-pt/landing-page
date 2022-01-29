@@ -40,8 +40,8 @@ export default function App() {
             <Header />
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route exact path="/faqs" element={<Faqs />} />
-              <Route exact path="/aboutUs" element={<Explanation />} />
+              <Route path="/faqs" element={<Faqs />} />
+              <Route path="/aboutUs" element={<Explanation />} />
             </Routes>
             <Footer />
           </BrowserRouter>

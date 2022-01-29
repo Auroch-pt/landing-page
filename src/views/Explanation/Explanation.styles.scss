@@ -1,2 +1,11 @@
+@import "/src/index.scss";
+
 .explanation_wrapper {
+  height: $view-height;
+  background-color: $light-gray;
+
+  h1 {
+    padding: 54px 65px ;
+    font-family: Helvetica Neue, Bold;
+  }
 }
