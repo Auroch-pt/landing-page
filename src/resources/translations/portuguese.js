@@ -22,7 +22,7 @@ export const PORTUGUESE_TRANSLATION = {
   },
   CTABanner: {
     title: "Vamos começar agora a construir projectos",
-    subtitle: "Conecta-te com a tua wallet e come√ßa a resolver tarefas.",
+    subtitle: "Conecta-te com a tua wallet e começa a resolver tarefas.",
   },
   expected_tasks: {
     title: "Tarefas que se podes esperar",
