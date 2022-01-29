@@ -5,7 +5,7 @@ import { HiCheck } from "react-icons/hi";
 import { t } from "i18next";
 
 const Banner = () => {
-  const [benefits, setBenefits] = useState([
+  const [benefits] = useState([
     t("banner.card1"),
     t("banner.card2"),
     t("banner.card3"),
