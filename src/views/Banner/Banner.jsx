@@ -22,9 +22,9 @@ const Banner = () => {
         <img alt="" src={developers} />
       </div>
       <div className="banner__rectangles">
-        {benefits.map((benefit) => {
+        {benefits.map((benefit, index) => {
           return (
-            <div className="banner__rectangle">
+            <div key={index} className="banner__rectangle">
               <HiCheck size={60} color="F78317" />
               <h6>{benefit}</h6>
             </div>

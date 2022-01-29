@@ -5,8 +5,7 @@ const TaskCard = ({ color = "green", tag, techs }) => {
     <div
       className="task-card"
       style={{
-        borderLeft:
-          color === "green" ? "5px solid #377c13" : "5px solid #1484a5",
+        borderLeft: "5px solid" + (color === "green" ? " #377c13" : " #1484a5"),
       }}
     >
       <section className="task-card_info">
