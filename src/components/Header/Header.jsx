@@ -30,7 +30,9 @@ const TabletHeader = () => {
       <div className="header__tablet">
         <Hamburger toggled={isOpen} toggle={setOpen} size={24} />
         <h1>FREEDEV</h1>
-        <button>{t("header.enroll")}</button>
+        <a href="https://dapp.freedev.pt/">
+          <button> {t("header.enroll")}</button>
+        </a>
       </div>
 
       <div className={isOpen ? "header__side-nav" : "header__side-nav--hidden"}>
@@ -51,7 +53,9 @@ const DesktopHeader = () => {
         <h1>FREEDEV</h1>
         <Menu />
       </div>
-      <button> {t("header.enroll")}</button>
+      <a href="https://dapp.freedev.pt/">
+        <button> {t("header.enroll")}</button>
+      </a>
     </div>
   );
 };
@@ -60,20 +64,24 @@ const Menu = () => {
   return (
     <ul>
       <li>
+
         <NavLink
           exact="true"
           className={({ isActive }) => (isActive ? " active" : "")}
           to="/"
         >
+
           {t("header.nav_option1")}
         </NavLink>
       </li>
       <li>
+
         <NavLink
           exact="true"
           className={({ isActive }) => (isActive ? " active" : "")}
           to="/faqs"
         >
+
           {t("header.nav_option2")}
         </NavLink>
       </li>

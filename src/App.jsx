@@ -12,7 +12,7 @@ import Header from "./components/Header/Header";
 
 //views
 import Home from "./views/Home/Home";
-import Explanation from "./views/Explanation/Explanation";
+import About from "./views/About/About";
 import Faqs from "./views/Faqs/Faqs";
 
 export default function App() {
