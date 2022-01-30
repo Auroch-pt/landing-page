@@ -30,12 +30,17 @@ const TabletHeader = () => {
       <div className="header__tablet">
         <Hamburger toggled={isOpen} toggle={setOpen} size={24} />
         <h1>FREEDEV</h1>
-        <button>{t("header.enroll")}</button>
+        <a href="https://dapp.freedev.pt/">
+          <button> {t("header.enroll")}</button>
+        </a>
       </div>
 
       <div className={isOpen ? "header__side-nav" : "header__side-nav--hidden"}>
         <Menu onClick={() => setOpen(false)} />
-        <div className="header__background" onClick={() => setOpen(false)}></div>
+        <div
+          className="header__background"
+          onClick={() => setOpen(false)}
+        ></div>
       </div>
     </>
   );
@@ -48,7 +53,9 @@ const DesktopHeader = () => {
         <h1>FREEDEV</h1>
         <Menu />
       </div>
-      <button> {t("header.enroll")}</button>
+      <a href="https://dapp.freedev.pt/">
+        <button> {t("header.enroll")}</button>
+      </a>
     </div>
   );
 };
@@ -57,17 +64,17 @@ const Menu = (onClick) => {
   return (
     <ul>
       <li>
-        <NavLink exact activeClassName="active" to="/" onClick={onClick}>
+        <NavLink activeClassName="active" to="/" onClick={onClick}>
           {t("header.nav_option1")}
         </NavLink>
       </li>
       <li>
-        <NavLink exact activeClassName="active" to="/faqs" onClick={onClick}>
+        <NavLink activeClassName="active" to="/faqs" onClick={onClick}>
           {t("header.nav_option2")}
         </NavLink>
       </li>
       <li>
-        <NavLink exact activeClassName="active" to="/aboutUs" onClick={onClick}>
+        <NavLink activeClassName="active" to="/aboutUs" onClick={onClick}>
           {t("header.nav_option3")}
         </NavLink>
       </li>

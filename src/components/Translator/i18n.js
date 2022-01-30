@@ -80,7 +80,7 @@ i18n
           },
 
           footer: {
-            info: "© 2022 Freedev. All rights reserved.",
+            info: "All rights reserved.",
           },
           error: {
             message: "Default Error",
@@ -150,7 +150,7 @@ i18n
           },
 
           footer: {
-            info: "© 2022 Freedev. Todos os direitos reservados.",
+            info: "Todos os direitos reservados.",
           },
           error: {
             message: "Erro teste",
