@@ -23,23 +23,23 @@ const Explanation = () => {
         <div className="about__values">
           <div className="about__single-value">
             <FaWpexplorer size="25" />
-            <h6>{t("about.value1title")}</h6>
-            <p>{t("about.value1description")}</p>
+            <h6>{t("about.value1Title")}</h6>
+            <p>{t("about.value1Description")}</p>
           </div>
           <div className="about__single-value">
             <RiTeamLine size="25" />
-            <h6>{t("about.value2title")}</h6>
-            <p>{t("about.value2description")}</p>
+            <h6>{t("about.value2Title")}</h6>
+            <p>{t("about.value2Description")}</p>
           </div>
           <div className="about__single-value">
             <BsEmojiLaughing size="25" />
-            <h6>{t("about.value3title")}</h6>
-            <p>{t("about.value3description")}</p>
+            <h6>{t("about.value3Title")}</h6>
+            <p>{t("about.value3Description")}</p>
           </div>
           <div className="about__single-value">
             <MdSelfImprovement size="25" />
-            <h6>{t("about.value4title")}</h6>
-            <p>{t("about.value4description")}</p>
+            <h6>{t("about.value4Title")}</h6>
+            <p>{t("about.value4Description")}</p>
           </div>
         </div>
       </div>

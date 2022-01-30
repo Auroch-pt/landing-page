@@ -65,17 +65,17 @@ i18n
             descriptionParagraph2:
               "Freedev is a challenge, a dream and a revolution but we are also determined and crazy enough to make it happen.",
             valuesTitle: "Our values",
-            value1title: "Trying, exploring and sharing",
-            value1description:
+            value1Title: "Trying, exploring and sharing",
+            value1Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            value2title: "Together, we go further",
-            value2description:
+            value2Title: "Together, we go further",
+            value2Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            value3title: "Work hard, laugh harder",
-            value3description:
+            value3Title: "Work hard, laugh harder",
+            value3Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            value4title: "Continuous improvement is the key to success",
-            value4description:
+            value4Title: "Continuous improvement is the key to success",
+            value4Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
           },
 
@@ -129,22 +129,22 @@ i18n
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
           },
           about: {
-            title: "Abous us",
+            title: "Sobre nós",
             descriptionParagraph1:
-              "We are a group of software developers with the ambitious and will of building projects that have a positive impact in the world.",
+              "Somos um grupo de programadores com a ambição e vontade de construir projetos que têm um impacto positivo no mundo.",
             descriptionParagraph2:
-              "Freedev is a challenge, a dream and a revolution but we are also determined and crazy enough to make it happen.",
-            valuesTitle: "Our values",
-            value1Title: "Trying, exploring and sharing",
+              "Freedev é um desafio, um sonho e uma revolução, mas nós também somos determinados e malucos o suficiente para o concretizar.",
+            valuesTitle: "Os nossos valores",
+            value1Title: "Tentar, explorar e partilhar",
             value1Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            value2Title: "Together, we go further",
+            value2Title: "Juntos, vamos mais longe",
             value2Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            value3Title: "Work hard, laugh harder",
+            value3Title: "Trabalhar muito, rir muito mais",
             value3Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            value4Title: "Continuous improvement is the key to success",
+            value4Title: "Consistência é a chave do sucesso",
             value4Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
           },
