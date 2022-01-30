@@ -2,7 +2,7 @@ import { useErrorHandler } from "react-error-boundary";
 import { t } from "i18next";
 import { Fragment } from "react";
 import Banner from "../../views/Banner/Banner.jsx";
-import CTABanner from "../CTABanner/CTABanner.jsx";
+import CTABanner from "../../views/CTABanner/CTABanner.jsx";
 
 function Home() {
   return (
