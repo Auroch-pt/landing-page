@@ -5,7 +5,7 @@ import { HiCheck } from "react-icons/hi";
 import { t } from "i18next";
 
 const Banner = () => {
-  const [benefits, setBenefits] = useState([
+  const [benefits] = useState([
     t("banner.card1"),
     t("banner.card2"),
     t("banner.card3"),
@@ -24,7 +24,7 @@ const Banner = () => {
       <div className="banner__rectangles">
         {benefits.map((benefit, index) => {
           return (
-            <div className="banner__rectangle" key={index}>
+            <div key={index} className="banner__rectangle">
               <HiCheck size={60} color="F78317" />
               <h6>{benefit}</h6>
             </div>

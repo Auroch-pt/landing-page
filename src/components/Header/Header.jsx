@@ -60,21 +60,37 @@ const DesktopHeader = () => {
   );
 };
 
-const Menu = (onClick) => {
+const Menu = () => {
   return (
     <ul>
       <li>
-        <NavLink activeClassName="active" to="/" onClick={onClick}>
+
+        <NavLink
+          exact="true"
+          className={({ isActive }) => (isActive ? " active" : "")}
+          to="/"
+        >
+
           {t("header.nav_option1")}
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/faqs" onClick={onClick}>
+
+        <NavLink
+          exact="true"
+          className={({ isActive }) => (isActive ? " active" : "")}
+          to="/faqs"
+        >
+
           {t("header.nav_option2")}
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/aboutUs" onClick={onClick}>
+        <NavLink
+          exact="true"
+          className={({ isActive }) => (isActive ? " active" : "")}
+          to="/aboutUs"
+        >
           {t("header.nav_option3")}
         </NavLink>
       </li>

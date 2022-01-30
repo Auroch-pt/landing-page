@@ -1,6 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
+import { ENGLISH_TRANSLATION } from "../../resources/translations/english";
+import { PORTUGUESE_TRANSLATION } from "../../resources/translations/portuguese";
 
 i18n
   // detect user language
@@ -11,7 +13,7 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
-    debug: true,
+    debug: false,
     fallbackLng: "en",
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
@@ -148,7 +150,6 @@ i18n
             value4Description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
           },
-
           footer: {
             info: "Todos os direitos reservados.",
           },
@@ -156,6 +157,7 @@ i18n
             message: "Erro teste",
           },
         },
+
       },
     },
   });

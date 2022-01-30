@@ -1,0 +1,51 @@
+$font-color_gray: #333333;
+$color-green: #377c13;
+$color-blue: #1484a5;
+
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 6px #00000029;
+  background: #fdfeff 0% 0% no-repeat padding-box;
+  padding: 12px 28px;
+  border-radius: 3px;
+  margin: 20px 0;
+
+  p {
+    margin: 10px 0;
+    font-size: 0.8rem;
+    color: $font-color_gray;
+  }
+
+  &_info {
+    max-width: 55%;
+    h4 {
+      margin: 0;
+    }
+  }
+
+  &_tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+
+    span {
+      font-size: 0.9rem;
+      background: #f8f8f8 0% 0% no-repeat padding-box;
+      box-shadow: 0px 0px 3px #0000005c;
+      padding: 4px 12px;
+      border-radius: 3px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .task-card {
+    flex-direction: column;
+
+    &_tech {
+      padding-left: 20%;
+    }
+  }
+}
