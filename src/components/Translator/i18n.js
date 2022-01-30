@@ -58,6 +58,27 @@ i18n
             answer4:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
           },
+          about: {
+            title: "Abous us",
+            descriptionParagraph1:
+              "We are a group of software developers with the ambitious and will of building projects that have a positive impact in the world.",
+            descriptionParagraph2:
+              "Freedev is a challenge, a dream and a revolution but we are also determined and crazy enough to make it happen.",
+            valuesTitle: "Our values",
+            value1title: "Trying, exploring and sharing",
+            value1description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            value2title: "Together, we go further",
+            value2description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            value3title: "Work hard, laugh harder",
+            value3description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            value4title: "Continuous improvement is the key to success",
+            value4description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+          },
+
           footer: {
             info: "© 2022 Freedev. All rights reserved.",
           },
@@ -107,6 +128,27 @@ i18n
             answer4:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
           },
+          about: {
+            title: "Abous us",
+            descriptionParagraph1:
+              "We are a group of software developers with the ambitious and will of building projects that have a positive impact in the world.",
+            descriptionParagraph2:
+              "Freedev is a challenge, a dream and a revolution but we are also determined and crazy enough to make it happen.",
+            valuesTitle: "Our values",
+            value1Title: "Trying, exploring and sharing",
+            value1Description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            value2Title: "Together, we go further",
+            value2Description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            value3Title: "Work hard, laugh harder",
+            value3Description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            value4Title: "Continuous improvement is the key to success",
+            value4Description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+          },
+
           footer: {
             info: "© 2022 Freedev. Todos os direitos reservados.",
           },

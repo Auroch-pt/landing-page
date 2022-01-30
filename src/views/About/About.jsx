@@ -5,58 +5,41 @@ import { BsEmojiLaughing } from "react-icons/bs";
 import { FaWpexplorer } from "react-icons/fa";
 import { RiTeamLine } from "react-icons/ri";
 import { MdSelfImprovement } from "react-icons/md";
+import { t } from "i18next";
 
 const Explanation = () => {
   return (
     <>
       <div className="about">
         <div className="about__text">
-          <h2>About us</h2>
-          <p>
-            We are a group of software developers with the ambitious and will of building projects
-            that have a positive impact in the world.
-          </p>
-          <p>
-            Freedev is a challenge, a dream and a revolution but we are also determined and crazy
-            enough to make it happen.
-          </p>
+          <h2>{t("about.title")}</h2>
+          <p>{t("about.descriptionParagraph1")}</p>
+          <p>{t("about.descriptionParagraph2")}</p>
         </div>
         <img src={team} alt=""></img>
       </div>
       <div className="about__values-container">
-        <h2>Our values</h2>
+        <h2>{t("about.valuesTitle")}</h2>
         <div className="about__values">
           <div className="about__single-value">
             <FaWpexplorer size="25" />
-            <h6>Trying, exploring and sharing</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-            </p>
+            <h6>{t("about.value1title")}</h6>
+            <p>{t("about.value1description")}</p>
           </div>
           <div className="about__single-value">
             <RiTeamLine size="25" />
-            <h6>Trying, exploring and sharing</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-            </p>
+            <h6>{t("about.value2title")}</h6>
+            <p>{t("about.value2description")}</p>
           </div>
           <div className="about__single-value">
             <BsEmojiLaughing size="25" />
-            <h6>Trying, exploring and sharing</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-            </p>
+            <h6>{t("about.value3title")}</h6>
+            <p>{t("about.value3description")}</p>
           </div>
           <div className="about__single-value">
             <MdSelfImprovement size="25" />
-            <h6>Trying, exploring and sharing</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-            </p>
+            <h6>{t("about.value4title")}</h6>
+            <p>{t("about.value4description")}</p>
           </div>
         </div>
       </div>
