@@ -24,6 +24,29 @@ export const PORTUGUESE_TRANSLATION = {
     title: "Vamos começar agora a construir projectos",
     subtitle: "Conecta-te com a tua wallet e começa a resolver tarefas.",
   },
+  explanation: {
+    title: "Vê como funciona",
+    step1: {
+      title: "As tarefas são publicadas",
+      description:
+        "Uma tarefa é publicada no Freedev. ma grande variedade de tecnologias disponíveis.",
+    },
+    step2: {
+      title: "Os programadores têm o poder de decisão",
+      description:
+        "Desenvolvedores de todo o mundo vêem quais fazem mais sentido de acordo com o seu conjunto de competências e nível de experiência.",
+    },
+    step3: {
+      title: "O Pull request é enviado",
+      description:
+        "Após o problema ter sido resolvido, o programador envia um pedido de extracção à pessoa que criou o problema, que avaliará a qualidade do código e o aceitará, rejeitará ou dará algum feedback.",
+    },
+    step4: {
+      title: "Recompensa imediata",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    },
+  },
   expected_tasks: {
     title: "Tarefas que se podes esperar",
     description:
