@@ -1,15 +1,10 @@
 import "./Banner.styles.scss";
-import { useState } from "react";
 import developers from "../../resources/developers.svg";
 import { HiCheck } from "react-icons/hi";
 import { t } from "i18next";
 
 const Banner = () => {
-  const [benefits] = useState([
-    t("banner.card1"),
-    t("banner.card2"),
-    t("banner.card3"),
-  ]);
+  const benefits = [t("banner.card1"), t("banner.card2"), t("banner.card3")];
 
   return (
     <div className="banner__container">
