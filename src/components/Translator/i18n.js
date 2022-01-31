@@ -1,8 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import { ENGLISH_TRANSLATION } from "./Translations/English";
-import { PORTUGUESE_TRANSLATION } from "./Translations/Portuguese";
+import { ENGLISH_TRANSLATION } from "../../resources/translations/english";
+import { PORTUGUESE_TRANSLATION } from "../../resources/translations/portuguese";
 
 i18n
   // detect user language
@@ -20,10 +20,10 @@ i18n
     },
     resources: {
       en: {
-        translation: ENGLISH_TRANSLATION,
+        translation: { ...ENGLISH_TRANSLATION },
       },
       pt: {
-        translation: PORTUGUESE_TRANSLATION,
+        translation: { ...PORTUGUESE_TRANSLATION },
       },
     },
   });

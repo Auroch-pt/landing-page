@@ -39,7 +39,7 @@ export default function App() {
           <BrowserRouter>
             <Header />
             <Routes>
-              <Route exact path="/" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/faqs" element={<Faqs />} />
               <Route path="/aboutUs" element={<Explanation />} />
             </Routes>
