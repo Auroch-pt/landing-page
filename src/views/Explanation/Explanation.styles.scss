@@ -27,13 +27,13 @@
           flex-direction: column;
 
           * {
-            margin: 0 2px;
+            margin: 0 8px;
           }
         }
       }
 
       &_step1 {
-        top: 12vh;
+        top: 10vh;
         left: 3vw;
         font-size: 0.8rem;
         section {
@@ -41,8 +41,8 @@
         }
       }
       &_step2 {
-        top: 23vh;
-        left: 27vw;
+        top: 24vh;
+        left: 28vw;
         font-size: 0.8rem;
 
         section {
@@ -50,8 +50,8 @@
         }
       }
       &_step3 {
-        bottom: 35vh;
-        left: 38vw;
+        bottom: 32vh;
+        left: 39vw;
         font-size: 0.8rem;
 
         section {
@@ -59,13 +59,110 @@
         }
       }
       &_step4 {
-        bottom: 12vh;
+        bottom: 10vh;
         left: 58vw;
         font-size: 0.8rem;
         align-items: end;
 
         section {
           max-width: 324px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .explanation_wrapper {
+    padding: 34px 25px;
+    .explanation {
+      background: $light-gray url("../../resources/explanation/line_tablet.svg")
+        no-repeat center;
+
+      .explanation_timeline {
+        &_step1 {
+          top: 3vh;
+          left: 54vw;
+          font-size: 0.7rem;
+        }
+        &_step2 {
+          top: 24vh;
+          left: 54vw;
+          font-size: 0.7rem;
+        }
+        &_step3 {
+          bottom: 31vh;
+          left: 41vw;
+          font-size: 0.7rem;
+        }
+        &_step4 {
+          bottom: 13vh;
+          left: 28vw;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .explanation_wrapper {
+    .explanation {
+      background: $light-gray url("../../resources/explanation/line_mobile.svg")
+        no-repeat center;
+
+      .explanation_timeline {
+        &_step1 {
+          top: 5vh;
+          left: 31vw;
+          font-size: 0.6rem;
+        }
+        &_step2 {
+          top: 25vh;
+          left: 36vw;
+          font-size: 0.6rem;
+        }
+        &_step3 {
+          bottom: 26vh;
+          left: 29vw;
+          font-size: 0.6rem;
+        }
+        &_step4 {
+          bottom: 3vh;
+          left: 23vw;
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .explanation_wrapper {
+    .explanation {
+      background: $light-gray url("../../resources/explanation/line_mobile.svg")
+        no-repeat center;
+
+      .explanation_timeline {
+        &_step1 {
+          top: 5vh;
+          left: 28vw;
+          font-size: 0.6rem;
+        }
+        &_step2 {
+          top: 25vh;
+          left: 26vw;
+          font-size: 0.6rem;
+        }
+        &_step3 {
+          bottom: 26vh;
+          left: 29vw;
+          font-size: 0.6rem;
+        }
+        &_step4 {
+          bottom: 3vh;
+          left: 23vw;
+          font-size: 0.6rem;
         }
       }
     }
