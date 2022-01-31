@@ -3,9 +3,71 @@
 .explanation_wrapper {
   height: $view-height;
   background-color: $light-gray;
+  padding: 54px 65px;
 
-  h1 {
-    padding: 54px 65px ;
-    font-family: Helvetica Neue, Bold;
+  .explanation {
+    height: 100%;
+    background: $light-gray url("../../resources/explanation/line_desktop.svg")
+      no-repeat center;
+    position: relative;
+
+    h1 {
+      font-family: Helvetica Neue, Bold;
+    }
+
+    .explanation_timeline {
+      margin-top: 5vh;
+
+      div {
+        position: absolute;
+        display: flex;
+
+        section {
+          display: flex;
+          flex-direction: column;
+
+          * {
+            margin: 0 2px;
+          }
+        }
+      }
+
+      &_step1 {
+        top: 12vh;
+        left: 3vw;
+        font-size: 0.8rem;
+        section {
+          max-width: 250px;
+        }
+      }
+      &_step2 {
+        top: 23vh;
+        left: 27vw;
+        font-size: 0.8rem;
+
+        section {
+          max-width: 324px;
+        }
+      }
+      &_step3 {
+        bottom: 35vh;
+        left: 38vw;
+        font-size: 0.8rem;
+
+        section {
+          max-width: 324px;
+        }
+      }
+      &_step4 {
+        bottom: 12vh;
+        left: 58vw;
+        font-size: 0.8rem;
+        align-items: end;
+
+        section {
+          max-width: 324px;
+        }
+      }
+    }
   }
 }
