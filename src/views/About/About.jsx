@@ -6,7 +6,7 @@ import { RiTeamLine } from "react-icons/ri";
 import { MdSelfImprovement } from "react-icons/md";
 import { t } from "i18next";
 
-const Explanation = () => {
+const About = () => {
   return (
     <>
       <div className="about">
@@ -46,4 +46,4 @@ const Explanation = () => {
   );
 };
 
-export default Explanation;
+export default About;
