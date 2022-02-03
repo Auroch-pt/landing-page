@@ -6,7 +6,9 @@ const CTABanner = () => {
     <div className="cta-banner">
       <h2>{t("CTABanner.title")}</h2>
       <h4>{t("CTABanner.subtitle")}</h4>
-      <button>{t("header.enroll")}</button>
+      <a href="https://dapp.freedev.pt/">
+        <button> {t("header.enroll")}</button>
+      </a>
     </div>
   );
 };
