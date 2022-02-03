@@ -66,6 +66,26 @@ export const PORTUGUESE_TRANSLATION = {
     answer4:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
   },
+  about: {
+    title: "Sobre nós",
+    descriptionParagraph1:
+      "Somos um grupo de programadores com a ambição e vontade de construir projetos que têm um impacto positivo no mundo.",
+    descriptionParagraph2:
+      "Freedev é um desafio, um sonho e uma revolução, mas nós também somos determinados e malucos o suficiente para o concretizar.",
+    valuesTitle: "Os nossos valores",
+    value1Title: "Tentar, explorar e partilhar",
+    value1Description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    value2Title: "Juntos, vamos mais longe",
+    value2Description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    value3Title: "Trabalhar muito, rir muito mais",
+    value3Description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    value4Title: "Consistência é a chave do sucesso",
+    value4Description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  },
   footer: {
     info: "¬© 2022 Freedev. Todos os direitos reservados.",
   },
