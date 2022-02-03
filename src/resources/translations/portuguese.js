@@ -67,7 +67,7 @@ export const PORTUGUESE_TRANSLATION = {
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
   },
   footer: {
-    info: "¬© 2022 Freedev. Todos os direitos reservados.",
+    info: "Todos os direitos reservados.",
   },
   error: {
     message: "Erro teste",
