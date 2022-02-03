@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer__company-details">
         <h6>freedev@auroch.pt</h6>
         <h6>
-          © {new Date().getFullYear()} Freedev. {t("footer.info")}
+          © {new Date().getFullYear()} {t("footer.info")}.
         </h6>
       </div>
       <div className="footer__idioms">
