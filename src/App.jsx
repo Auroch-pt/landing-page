@@ -14,6 +14,7 @@ import Header from "./components/Header/Header";
 import Home from "./views/Home/Home";
 import Explanation from "./views/Explanation/Explanation";
 import Faqs from "./views/Faqs/Faqs";
+import About from "./views/About/About.jsx";
 
 export default function App() {
   const [isAppLoading, setIsLoading] = useState(false);
@@ -41,7 +42,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/faqs" element={<Faqs />} />
-              <Route path="/aboutUs" element={<Explanation />} />
+              <Route path="/aboutUs" element={<About />} />
             </Routes>
             <Footer />
           </BrowserRouter>
