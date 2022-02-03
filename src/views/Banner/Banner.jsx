@@ -12,7 +12,9 @@ const Banner = () => {
         <div className="banner__text">
           <h2>{t("banner.title")}</h2>
           <h4>{t("banner.description")}</h4>
-          <button>{t("header.enroll")}</button>
+          <a href="https://dapp.freedev.pt/">
+            <button> {t("header.enroll")}</button>
+          </a>
         </div>
         <img alt="" src={developers} />
       </div>
