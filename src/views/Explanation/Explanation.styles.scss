@@ -3,10 +3,10 @@
 .explanation_wrapper {
   height: $view-height;
   background-color: $light-gray;
-  padding: 54px 65px;
+  padding: 54px 63px;
 
   .explanation {
-    height: 100%;
+    height: calc($view-height - 58px);
     background: $light-gray url("../../resources/explanation/line_desktop.svg")
       no-repeat center;
     position: relative;
@@ -33,16 +33,16 @@
       }
 
       &_step1 {
-        top: 8vh;
-        left: 3vw;
+        top: 7%;
+        left: 3%;
         font-size: 0.8rem;
         section {
           max-width: 250px;
         }
       }
       &_step2 {
-        top: 24vh;
-        left: 28vw;
+        top: 20%;
+        left: 29%;
         font-size: 0.8rem;
 
         section {
@@ -50,8 +50,8 @@
         }
       }
       &_step3 {
-        bottom: 32vh;
-        left: 40vw;
+        bottom: 34%;
+        left: 44%;
         font-size: 0.8rem;
 
         section {
@@ -59,8 +59,8 @@
         }
       }
       &_step4 {
-        bottom: 10vh;
-        left: 58vw;
+        bottom: 11%;
+        left: 66%;
         font-size: 0.8rem;
         align-items: end;
 
@@ -81,23 +81,23 @@
 
       .explanation_timeline {
         &_step1 {
-          top: 3vh;
-          left: 55vw;
+          top: 1%;
+          left: 63%;
           font-size: 0.7rem;
         }
         &_step2 {
-          top: 27vh;
-          left: 55vw;
+          top: 25%;
+          left: 63%;
           font-size: 0.7rem;
         }
         &_step3 {
-          bottom: 34vh;
-          left: 41vw;
+          bottom: 35%;
+          left: 41%;
           font-size: 0.7rem;
         }
         &_step4 {
-          bottom: 9vh;
-          left: 27vw;
+          bottom: 9%;
+          left: 27%;
           font-size: 0.7rem;
         }
       }
@@ -107,7 +107,6 @@
 
 @media screen and (max-width: 575px) {
   .explanation_wrapper {
-    padding: 24px 15px;
     .explanation {
       margin-top: 24px;
       background: $light-gray url("../../resources/explanation/line_mobile.svg")
@@ -115,23 +114,23 @@
 
       .explanation_timeline {
         &_step1 {
-          top: 5vh;
-          left: 31vw;
+          top: 1%;
+          left: 31%;
           font-size: 0.6rem;
         }
         &_step2 {
-          top: 27vh;
-          left: 36vw;
+          top: 25%;
+          left: 38%;
           font-size: 0.6rem;
         }
         &_step3 {
-          bottom: 28vh;
-          left: 29vw;
+          bottom: 27%;
+          left: 29%;
           font-size: 0.6rem;
         }
         &_step4 {
-          bottom: 3vh;
-          left: 23vw;
+          bottom: 1%;
+          left: 23%;
           font-size: 0.6rem;
         }
       }
@@ -142,7 +141,7 @@
 @media screen and (max-width: 300px) {
   .explanation_wrapper {
     min-width: 275px;
-    margin: 24px 0;
+    padding: 14px 8px;
     h1 {
       margin: 0 24px;
     }
@@ -152,12 +151,12 @@
 
       .explanation_timeline {
         &_step1 {
-          top: 5vh;
+          top: 1vh;
           left: 26vw;
           font-size: 0.6rem;
         }
         &_step2 {
-          top: 24vh;
+          top: 17vh;
           left: 23vw;
           font-size: 0.6rem;
         }
