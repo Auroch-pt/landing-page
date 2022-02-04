@@ -10,8 +10,8 @@ const Explanation = () => {
 
   return (
     <section className="explanation_wrapper">
+      <h1>{t("explanation.title")}</h1>
       <section className="explanation">
-        <h1>{t("explanation.title")}</h1>
         <section className="explanation_timeline">
           <div className="explanation_timeline_step1">
             <img width="100vw" src={Step1} alt="step 1" />

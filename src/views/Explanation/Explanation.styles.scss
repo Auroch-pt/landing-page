@@ -2,9 +2,9 @@
 
 .explanation_wrapper {
   height: $view-height;
+  max-height: 750px;
   background-color: $light-gray;
   padding: 54px 65px;
-  min-width: 275px;
 
   .explanation {
     height: 100%;
@@ -34,7 +34,7 @@
       }
 
       &_step1 {
-        top: 10vh;
+        top: 8vh;
         left: 3vw;
         font-size: 0.8rem;
         section {
@@ -108,7 +108,9 @@
 
 @media screen and (max-width: 575px) {
   .explanation_wrapper {
+    padding: 24px 15px;
     .explanation {
+      margin-top: 24px;
       background: $light-gray url("../../resources/explanation/line_mobile.svg")
         no-repeat center;
 
@@ -119,12 +121,12 @@
           font-size: 0.6rem;
         }
         &_step2 {
-          top: 25vh;
+          top: 27vh;
           left: 36vw;
           font-size: 0.6rem;
         }
         &_step3 {
-          bottom: 26vh;
+          bottom: 28vh;
           left: 29vw;
           font-size: 0.6rem;
         }
@@ -138,8 +140,12 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 300px) {
   .explanation_wrapper {
+    min-width: 275px;
+    h1 {
+      margin: 0 24px;
+    }
     .explanation {
       background: $light-gray url("../../resources/explanation/line_mobile.svg")
         no-repeat center;
