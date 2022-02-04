@@ -2,7 +2,6 @@
 
 .explanation_wrapper {
   height: $view-height;
-  max-height: 750px;
   background-color: $light-gray;
   padding: 54px 65px;
 
@@ -52,7 +51,7 @@
       }
       &_step3 {
         bottom: 32vh;
-        left: 39vw;
+        left: 40vw;
         font-size: 0.8rem;
 
         section {
@@ -83,22 +82,22 @@
       .explanation_timeline {
         &_step1 {
           top: 3vh;
-          left: 54vw;
+          left: 55vw;
           font-size: 0.7rem;
         }
         &_step2 {
-          top: 24vh;
-          left: 54vw;
+          top: 27vh;
+          left: 55vw;
           font-size: 0.7rem;
         }
         &_step3 {
-          bottom: 31vh;
+          bottom: 34vh;
           left: 41vw;
           font-size: 0.7rem;
         }
         &_step4 {
-          bottom: 13vh;
-          left: 28vw;
+          bottom: 9vh;
+          left: 27vw;
           font-size: 0.7rem;
         }
       }
@@ -143,6 +142,7 @@
 @media screen and (max-width: 300px) {
   .explanation_wrapper {
     min-width: 275px;
+    margin: 24px 0;
     h1 {
       margin: 0 24px;
     }
@@ -153,22 +153,22 @@
       .explanation_timeline {
         &_step1 {
           top: 5vh;
-          left: 28vw;
+          left: 26vw;
           font-size: 0.6rem;
         }
         &_step2 {
           top: 24vh;
-          left: 25vw;
+          left: 23vw;
           font-size: 0.6rem;
         }
         &_step3 {
           bottom: 20vh;
-          left: 24vw;
+          left: 22vw;
           font-size: 0.6rem;
         }
         &_step4 {
           bottom: 1vh;
-          left: 23vw;
+          left: 21vw;
           font-size: 0.6rem;
         }
       }
