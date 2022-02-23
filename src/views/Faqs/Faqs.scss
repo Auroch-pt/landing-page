@@ -1,12 +1,21 @@
+@import "/src/index.scss";
+
 .faqs__container {
-  height: calc(100vh - 14rem);
+  min-height: calc($height-view - $height-footer - 20px);
   text-align: center;
-  padding: 2rem;
+  padding: 10px 0;
 
   .faqs__rectangles {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem 0 3rem 0;
+    margin: 15px 5px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .faqs__container {
+    padding: 10px 30px;
   }
 }
