@@ -3,7 +3,7 @@
 .faqs__container {
   min-height: calc($height-view - $height-footer - 20px);
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 8px;
 
   .faqs__rectangles {
     width: 100%;
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (min-width: 968px) {
   .faqs__container {
     padding: 10px 30px;
   }
