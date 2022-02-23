@@ -1,14 +1,14 @@
 @import "/src/index.scss";
 
 .explanation_wrapper {
-  height: calc($view-height + 55px);
-  background-color: $light-gray;
-  padding: 8px 63px;
+  height: $height-full-view;
+  background-color: $color-light-gray;
+  padding: 54px 65px;
 
   .explanation {
     height: 100%;
-    max-height: $view-height;
-    background: $light-gray url("../../resources/explanation/line_desktop.svg")
+    max-height: calc($height-view);
+    background: $color-light-gray url("../../resources/explanation/line_desktop.svg")
       no-repeat center;
     background-size: contain;
     position: relative;
@@ -35,7 +35,7 @@
       }
 
       &_step1 {
-        top: 8%;
+        top: 6%;
         left: 3%;
         font-size: 0.8rem;
         section {
@@ -43,8 +43,8 @@
         }
       }
       &_step2 {
-        top: 23%;
-        left: 29%;
+        top: 24%;
+        left: 30%;
         font-size: 0.8rem;
 
         section {
@@ -52,8 +52,8 @@
         }
       }
       &_step3 {
-        bottom: 34%;
-        left: 48%;
+        bottom: 35%;
+        left: 46%;
         font-size: 0.8rem;
 
         section {
@@ -61,8 +61,8 @@
         }
       }
       &_step4 {
-        bottom: 13%;
-        left: 68%;
+        bottom: 10%;
+        left: 65%;
         font-size: 0.8rem;
         align-items: end;
 
@@ -78,28 +78,28 @@
   .explanation_wrapper {
     padding: 8px 25px;
     .explanation {
-      background: $light-gray url("../../resources/explanation/line_tablet.svg")
+      background: url("../../resources/explanation/line_tablet.svg")
         no-repeat center;
 
       .explanation_timeline {
         &_step1 {
-          top: 1%;
-          left: 59%;
+          top: 3%;
+          left: 60%;
           font-size: 0.7rem;
         }
         &_step2 {
-          top: 25%;
-          left: 59%;
+          top: 27%;
+          left: 60%;
           font-size: 0.7rem;
         }
         &_step3 {
-          bottom: 35%;
-          left: 46%;
+          bottom: 34%;
+          left: 43%;
           font-size: 0.7rem;
         }
         &_step4 {
           bottom: 9%;
-          left: 27%;
+          left: 26%;
           font-size: 0.7rem;
         }
       }
@@ -112,28 +112,27 @@
     padding: 8px 18px;
     .explanation {
       margin-top: 24px;
-      background: $light-gray url("../../resources/explanation/line_mobile.svg")
+      background: url("../../resources/explanation/line_mobile.svg")
         no-repeat center;
 
       .explanation_timeline {
         &_step1 {
-          top: 1%;
-          left: 31%;
+          left: 32%;
           font-size: 0.6rem;
         }
         &_step2 {
           top: 25%;
-          left: 38%;
+          left: 37%;
           font-size: 0.6rem;
         }
         &_step3 {
-          bottom: 33%;
-          left: 31%;
+          bottom: 29%;
+          left: 30%;
           font-size: 0.6rem;
         }
         &_step4 {
-          bottom: 8%;
-          left: 23%;
+          bottom: 4%;
+          left: 24%;
           font-size: 0.6rem;
         }
       }
@@ -141,37 +140,73 @@
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 380px) {
   .explanation_wrapper {
     min-width: 275px;
-    min-height: calc($view-height + 9vh);
+    min-height: calc($height-view + 9vh);
     padding: 8px 8px;
     h1 {
       margin: 0 24px;
     }
     .explanation {
-      min-height: $view-height;
-      background: $light-gray url("../../resources/explanation/line_mobile.svg")
+      background: url("../../resources/explanation/line_mobile.svg")
         no-repeat center;
 
       .explanation_timeline {
         &_step1 {
-          top: 1%;
-          left: 26%;
+          top: 0;
+          left: 28%;
           font-size: 0.6rem;
         }
         &_step2 {
-          top: 22%;
+          top: 24%;
+          left: 30%;
+          font-size: 0.6rem;
+        }
+        &_step3 {
+          bottom: 29%;
+          left: 22%;
+          font-size: 0.6rem;
+        }
+        &_step4 {
+          bottom: 0;
+          left: 20%;
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .explanation_wrapper {
+    min-width: 275px;
+    margin: 24px 0;
+    h1 {
+      margin: 0 24px;
+    }
+    .explanation {
+      background: url("../../resources/explanation/line_mobile.svg")
+        no-repeat center;
+
+      .explanation_timeline {
+        &_step1 {
+          top: 0;
+          left: 24%;
+          font-size: 0.6rem;
+        }
+        &_step2 {
+          top: 24%;
           left: 23%;
           font-size: 0.6rem;
         }
         &_step3 {
-          bottom: 30%;
-          left: 22vw;
+          bottom: 24%;
+          left: 22%;
           font-size: 0.6rem;
         }
         &_step4 {
-          bottom: 1%;
+          bottom: 0;
           left: 21%;
           font-size: 0.6rem;
         }
